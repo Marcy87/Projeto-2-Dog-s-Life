@@ -1,0 +1,29 @@
+/*MAIN*/
+main {
+    width: 70%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin: 2% 0 2% 0;
+}
+
+main figure img {
+    margin-left: 20%;
+}
+
+h2 {
+    color: blue;
+    font-size: 2em;
+}
+
+h3 {
+    color: blue;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5em;
+    margin: 2% 0 2% 0;
+}

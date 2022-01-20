@@ -1,0 +1,114 @@
+/*MAIN*/
+.esquerdaCima {
+    position: absolute;
+    width: 10%;
+    margin: -2% 0 0 17%;
+}
+
+.direitaCima {
+    position: absolute;
+    width: 10%;
+    margin: -2% 0 0 73%;
+}
+
+.esquerdaBaixo {
+    position: absolute;
+    width: 8%;
+    margin: 25% 0 0 21%;
+}
+
+.direitaBaixo {
+    position: absolute;
+    width: 8%;
+    margin: 25% 0 2% 70%;
+}
+
+form {
+    width: 50%;
+    margin: 5% 0 5% 25%;
+}
+
+fieldset {
+    border-radius: 45px;
+    background-color: antiquewhite;
+    box-shadow: 0 0 15px rgb(209, 226, 148);
+    border: 0;
+}
+
+legend {
+    font-size: 3em;
+    margin-bottom: 2%;
+    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: inline-block;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 8%;
+    margin: 15px 15% 15px 2%;
+}
+
+input, textarea {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid #CCC;
+    box-shadow: inset 2px 2px 2px #EEE;
+    font-size: 1.2em;
+    padding: 2px 5px;
+}
+
+textarea {
+    height: 100px;
+    vertical-align: top;
+}
+
+.hint {
+    background-color: #FFFBE4;
+    border-radius: 3px;
+    border: 1px solid #CCC;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    display: none;
+    font-size: 1.1em;
+    margin-left: 5%;
+    padding: 3px;
+}
+
+input:focus + .hint, textarea:focus + .hint {
+    display: inline-block;
+}
+
+.error {
+    color: red;
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0 0 0 27%;
+}
+
+.direita {
+    margin: 1% 0 2% 26%;
+}
+
+button {
+    margin: 2% 0 2% 40%;
+    font-size: 1.5em;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2) inset;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px blue;
+}
+
+h2 {
+    font-size: 3em;
+    text-align: center;
+}
+
+iframe {
+    position: relative;
+    margin: 2% 0 5% 34%;
+}

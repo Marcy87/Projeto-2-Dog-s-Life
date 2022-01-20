@@ -1,0 +1,135 @@
+/*MAIN*/
+main {
+    width: 70%;
+}
+
+/*1° Section*/
+h1 {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 2%;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.5em;
+    margin-top: 2%;
+}
+
+section p a {
+    text-decoration: none;
+}
+
+.imgMainCenter {
+    width: 100%;
+}
+
+.barra {
+    background-color: antiquewhite;
+    padding: 1%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*2° Section e 1° Coluna*/
+.coluna1 {
+    float: left;
+    width: 72%;
+}
+
+article {
+    background-color: rgb(134, 134, 134);
+    float: left;
+    margin: 5% 10% 5% 0;
+    width: 40%;
+    border-radius: 30%;
+}
+
+
+
+article figure img {
+    width: 100%;
+    border-radius: 30%;
+}
+article h2 {
+    text-align: center;
+    font-size: 1.8em;
+    width: 75%;
+    color: white;
+}
+
+article p {
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+}
+
+article:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    cursor: pointer;
+    border-color: grey;
+    box-shadow: 0 0 20px grey;
+}
+
+/*2° Coluna*/
+.coluna2 {
+    float: right;
+    width: 25%;
+}
+
+/*ASIDE*/
+aside {
+    width: 90%;
+    margin: 10% 0 0 0;
+    background-color: rgb(231, 231, 231);
+    border-radius: 25px;
+    padding: 2%;
+}
+
+h3 {
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 2em;
+    border-radius: 25px;
+    padding: 2%;
+}
+
+aside ol li a {
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+aside ol li {
+    text-align: justify;
+    margin: 5% 0 1% 10%;
+}
+
+/*Div*/
+#relogio {
+    margin: 10% 0 0 0;
+}
+
+span {
+    margin-left: 40px;
+    color: black;
+}
+
+.lado-a-lado {
+    float: left;
+}
+
+.ajuste-float {
+    clear: both;
+}
+
+.lado-a-lado > div{
+    width: 60%;
+    padding: 10px;
+    margin: 10px 45px 10px 12px;
+    border: 1px solid rgb(211, 211, 211);
+    background-color: antiquewhite;
+    border-radius: 25px;
+    text-align: center;
+}

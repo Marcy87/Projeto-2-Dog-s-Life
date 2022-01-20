@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-contato.css">
+    <link rel="stylesheet" href="css/estilo-header-nav-footer.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header>
+        <div class="container clearfix">
+            <figure>
+                <img src="imagens/cachorro3.png" alt="Cachorro" id="left">
+                <a href="../Projeto-Final/home.html"><img src="imagens/dogs-life.png" alt="Logo" id="right"></a>
+            </figure>
+        </div>
+    </header>
+
+    <nav id="menuPrincipal">
+        <ul>
+            <li class="listNone"><a href="../Projeto-Final/home.html" class="color">Home</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Sobre-a-dogslife.html" class="color">Sobre</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Contato.html" class="color">Contato</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Orçamento.html" class="color">Orçamento</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Pesquisa-de-satisfação.html" class="color">Pesquisa</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <figure>
+            <img src="imagens/patas1.png" alt="Imagem Patas" class="esquerdaCima">
+        </figure>
+        <figure>
+            <img src="imagens/patas2.png" alt="Imagem Patas" class="direitaCima">
+        </figure>
+        <figure>
+            <img src="imagens/cachorro1.png" alt="Imagem cachorro1" class="esquerdaBaixo">
+        </figure>
+        <figure>
+            <img src="imagens/cachorro2.png" alt="Imagem cachorro2" class="direitaBaixo">
+        </figure>
+
+        <form method="post" action="../Projeto-Final/cadastro-realizado.html">
+            <fieldset>
+                <legend>Cadastro</legend>
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" autofocus>
+                </p>
+                <p>
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" id="sobrenome" name="sobrenome">
+                </p>
+                <p>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                    <span class="hint">Formato: (XX) XXXXX-XXXX</span>
+                </p>
+                <p>
+                    <label for="email">E-mail:*</label>
+                    <input type="email" id="email" name="email">
+                    <span class="hint">por exemplo, seunome@dominio.com.</span>
+                    <span class="error">Preencha o seu E-mail corretamente</span>
+                </p>
+                <p>
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto">
+                    <span class="hint">Nos diga qual é o seu problema ou ideia.</span>
+                </p>
+                <p>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" maxlength="500"></textarea>
+                    <span class="hint">Escreva a sua mensagem, em até 500 caracteres.</span>
+                    <p class="direita"><span id="limite">500</span> caracteres restantes.</p>
+                </p>
+
+                <button>Enviar</button>
+
+            </fieldset>
+        </form>
+
+        <h2>Onde estamos</h2>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.1133927653273!2d-43.191999097997474!3d-22.909188069525687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997f6ed91e50f5%3A0x2800e8c8454d8cfb!2sPra%C3%A7a%20da%20Rep%C3%BAblica%2C%2029%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020211-030!5e0!3m2!1spt-BR!2sbr!4v1641839916556!5m2!1spt-BR!2sbr"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </main>
+
+    <footer>
+        <figure>
+            <a href="../Projeto-Final/home.html"><img src="imagens/dogs-life.png" alt="logo" class="imgFooter"></a>
+        </figure>
+        <nav id="menuRodape">
+            <ul>
+                <li class="listNone"><a href="../Projeto-Final/home.html" class="color2">Home</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Sobre-a-dogslife.html" class="color2">Sobre</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Contato.html" class="color2">Contato</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Orçamento.html" class="color2">Orçamento</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Pesquisa-de-satisfação.html" class="color2">Pesquisa</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="centrado">
+            <span id="ano"></span> &copy Copyright; Autor: Marcello Di Silvestro &nbsp; E-mail: <a
+                href="mailto:marcellodisilestro@outlook.com">marcellodisilvestro@outlook.com</a>
+        </div>
+    </footer>
+    <script src="js/script-contato.js"></script>
+</body>
+
+</html>

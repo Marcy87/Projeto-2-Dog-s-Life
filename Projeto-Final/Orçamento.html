@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo-orcamento.css">
+    <link rel="stylesheet" href="css/estilo-header-nav-footer.css">
+    <title>Orçamento</title>
+</head>
+
+<body>
+    <header>
+        <div class="container clearfix">
+            <figure>
+                <img src="imagens/cachorro3.png" alt="Cachorro" id="left">
+                <a href="../Projeto-Final/home.html"><img src="imagens/dogs-life.png" alt="Logo" id="right"></a>
+            </figure>
+        </div>
+    </header>
+
+    <nav id="menuPrincipal">
+        <ul>
+            <li class="listNone"><a href="../Projeto-Final/home.html" class="color">Home</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Sobre-a-dogslife.html" class="color">Sobre</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Contato.html" class="color">Contato</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Orçamento.html" class="color">Orçamento</a></li>
+            <li class="listNone"><a href="../Projeto-Final/Pesquisa-de-satisfação.html" class="color">Pesquisa</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <figure>
+            <img src="imagens/patas1.png" alt="Imagem Patas" class="pataEsquerda">
+        </figure>
+        <figure>
+            <img src="imagens/cachorro1.png" alt="Imagem cacchorro1" class="esquerda">
+        </figure>
+        <figure>
+            <img src="imagens/cachorro2.png" alt="Imagem cacchorro2" class="direita">
+        </figure>
+        <figure>
+            <img src="imagens/patas2.png" alt="Imagem Patas" class="pataDireita">
+        </figure>
+        <h1>Orçamento</h1>
+        <div id="conteiner">
+
+            <section class="coluna1">
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Opção</th>
+                            <th scope="col">Descrição do Serviço</th>
+                            <th scope="col" class="largura">Preço</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Creche "diária"</td>
+                            <td class="largura">R$ 40,00</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Hospedagem "Pacote 1 dia"</td>
+                            <td class="largura">R$ 100,00</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Hospedagem "Pacote 10 dias"</td>
+                            <td class="largura">R$ 800,00</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Hospedagem "Pacote 15 dias"</td>
+                            <td class="largura">R$ 1100,00</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Hospedagem "Pacote 30 dias"</td>
+                            <td class="largura">R$ 1800,00</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Hospedagem "Pacote 60 dias"</td>
+                            <td class="largura">R$ 2800,00</td>
+                        </tr>
+                    </tbody>
+                    <caption>
+                        Escolhe opção desejada
+                    </caption>
+                </table>
+            </section>
+
+            <section class="coluna2">
+                <form>
+                    <fieldset>
+                        <legend>Pedido</legend>
+                        <p>
+                            <label for="opcao">Insira Opção:</label>
+                            <select name="opcao" id="opcao">
+                                <option value="">Preencha</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </p>
+                        <br>
+                        <p>
+                            <label for="quantidade">Escolhe Quantidade:</label>
+                            <input type="number" name="quantidade" id="quantidade">
+                        </p>
+                        <br>
+                        <p>
+                            <label for="cupom">Cupom:</label>
+                            <select name="cupom" id="cupom">
+                                <option value="">Preencha</option>
+                                <option value="cupom10">Cupom de 10%</option>
+                                <option value="cupom15">Cupom de 15%</option>
+                                <option value="cupom20">Cupom de 20%</option>
+                            </select>
+                        </p>
+                        <br>
+                        <p>
+                            <label for="desconto">Desconto:</label>
+                            <input type="text" name="desconto" id="desconto">
+                        </p>
+                        <br>
+                        <p>
+                            <label for="frete">Frete:</label>
+                            <select name="frete" id="frete">
+                                <option value="">Preencha</option>
+                                <option value="frete5km">Frete até 5km é R$ 50,00</option>
+                                <option value="frete10km">Frete até 10km é R$ 80,00</option>
+                                <option value="frete15km">Frete até 15km é R$ 100,00</option>
+                            </select>
+                        </p>
+                        <br>
+                        <div class="button">
+                            <button type="button" name="btnResumo" id="btnResumo">Resumo</button>
+                            <button type="button" name="btnConfirmar" id="btnConfirmar">Confirmar</button>
+                            <button type="reset">Limpar</button>
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+            <section class="coluna3">
+                <h2>Resumo do Pedido:</h2>
+                <br>
+                <div class="msn">
+                    <p id="mensagem1"></p>
+                    <p id="mensagem2"></p>
+                    <p id="mensagem3"></p>
+                    <p id="mensagem4"></p>
+                    <p id="mensagem5"></p>
+                    <p id="mensagem6"></p>
+                    <p id="mensagem7"><strong></strong></p>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <figure>
+            <a href="../Projeto-Final/home.html"><img src="imagens/dogs-life.png" alt="logo" class="imgFooter"></a>
+        </figure>
+        <nav id="menuRodape">
+            <ul>
+                <li class="listNone"><a href="../Projeto-Final/home.html" class="color2">Home</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Sobre-a-dogslife.html" class="color2">Sobre</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Contato.html" class="color2">Contato</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Orçamento.html" class="color2">Orçamento</a></li>
+                <li class="listNone"><a href="../Projeto-Final/Pesquisa-de-satisfação.html" class="color2">Pesquisa</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="centrado">
+            <span id="ano"></span> &copy Copyright; Autor: Marcello Di Silvestro &nbsp; E-mail: <a
+                href="mailto:marcellodisilestro@outlook.com">marcellodisilvestro@outlook.com</a>
+        </div>
+    </footer>
+    <script src="js/script-orcamento.js"></script>
+</body>
+
+</html>
